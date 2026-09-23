@@ -33,7 +33,7 @@ module control_unit (
                 reg_write  = 1'b1;
                 alu_src    = 1'b1;
                 mem_to_reg = 1'b0;
-                alu_op     = 2'b10;
+                alu_op     = 2'b11;
             end
 
             // Load instructions (e.g., lw)

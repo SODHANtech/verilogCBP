@@ -1,0 +1,6 @@
+# Simulation artifacts
+*.vvp
+*.vcd
+*.log
+*.jou
+dump.vcd

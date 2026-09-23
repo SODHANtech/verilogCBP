@@ -35,7 +35,7 @@ module tb_milestone2;
     alu u_alu (
         .a(rs1_data),
         .b(rs2_data),
-        .alu_op(alu_op),
+        .alu_control(alu_op),
         .result(alu_result),
         .zero(zero)
     );
